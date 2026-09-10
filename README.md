@@ -1,52 +1,39 @@
 # AI Workplace Companion
 
-“Build a modern, responsive web application called AI Workplace Productivity Assistant that helps professionals automate workplace tasks using AI.
+AI Workplace Productivity Assistant
 
-The application should include:
+The AI Workplace Productivity Assistant is a modern, responsive SaaS web application designed to help professionals streamline everyday workplace activities using artificial intelligence. The platform combines multiple productivity tools into a single, intuitive workspace, enabling users to write better emails, summarize meetings, organize tasks, conduct research, and receive AI-powered workplace assistance.
 
-Smart Email Generator
+The application features a clean and professional dashboard with a responsive layout that works across desktop, tablet, and mobile devices. Users can easily navigate between different AI-powered tools through a structured sidebar and centralized dashboard.
 
-Meeting Notes Summarizer
+Key Features
 
-AI Task Planner
+The Smart Email Generator helps users create professional emails by entering the purpose, recipient, key points, preferred tone, and desired length. The AI generates an editable email containing a subject line and message body, with options to copy, regenerate, edit, or clear the content.
 
-AI Research Assistant
+The Meeting Notes Summarizer converts lengthy meeting notes or transcripts into concise, structured information. It identifies important summaries, key decisions, action items, responsible owners, and deadlines, helping teams quickly understand meeting outcomes and follow-up responsibilities.
 
-AI Chatbot Interface
+The AI Task Planner assists users in organizing their daily or weekly workload. Users can enter tasks, priorities, estimated durations, and deadlines, while the AI creates an optimized schedule with suggested time blocks. Tasks can be categorized by priority, reordered, tracked, and marked as completed.
 
-Requirements:
+The AI Research Assistant provides structured research support by generating main insights, important points, benefits, risks, recommendations, and follow-up questions. A verification notice is displayed to remind users that AI-generated information should be reviewed before being used for important decisions.
 
-Modern dashboard UI
+The AI Workplace Chatbot provides an interactive conversational assistant for workplace-related needs. Users can ask questions, brainstorm ideas, improve writing, summarize information, plan activities, and receive general productivity advice through a familiar chat interface.
 
-Sidebar navigation
+Dashboard Experience
 
-Responsive design
+The main dashboard provides users with a personalized welcome message, productivity statistics, recent activity, quick-action cards, and shortcuts to the platform's major tools. A consistent design system using cards, badges, tabs, progress indicators, notifications, and interactive states creates a polished SaaS experience.
 
-Structured AI prompts
+Responsible AI and Privacy
 
-Editable AI outputs
+Responsible AI is an important part of the application. AI-generated content is clearly labeled, and users are encouraged to verify important information before relying on it. The application also includes a privacy notice advising users not to submit confidential or sensitive company information.
 
-Responsible AI disclaimer
+A responsible AI disclaimer is displayed throughout the platform:
 
-Design style should be clean, modern, and professional similar to a SaaS platform.”
+“AI-generated content may contain mistakes or omissions. Review and verify all outputs before using them for important business, legal, financial, medical, or professional decisions.”
 
-This project was built with [Lovable](https://lovable.dev).
+Users can also provide feedback or report inaccurate or inappropriate AI responses.
 
-## Build with Lovable
+Technical and Design Goals
 
-Continue developing this project in the [Lovable editor](https://lovable.dev/projects/e01aa48c-8596-4af9-92d9-050eeac681e9).
+The application is designed using reusable components and a maintainable project structure, with separate views for each major productivity feature. It includes realistic sample data, form validation, editable AI outputs, loading and error states, success notifications, responsive layouts, and consistent navigation.
 
-- **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: every change made in Lovable is committed straight to this repository.
-- **Full ownership**: this code is yours. Push to `main` on GitHub and your changes sync back into Lovable, ready for your next prompt.
-
-## Development
-
-Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
-
-```sh
-git clone <this-repository-url>
-cd <repository-name>
-npm i
-npm run dev
-```
+Overall, the AI Workplace Productivity Assistant aims to provide a complete, presentation-ready digital workplace platform that demonstrates how artificial intelligence can be integrated into everyday professional workflows to improve efficiency, organization, communication, and decision-making.
